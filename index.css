@@ -20,7 +20,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Tangerine', serif;
-    font-size: 5vw;
+    font-size: 10vw;
     font-style: italic;
     font-weight: 900;
     -webkit-user-select: none;
