@@ -161,7 +161,7 @@ a {
   // First example styles
   .example-1 {
     .wrapper {
-      background: url('./assets/bebe.jpg') 20% 1% / cover no-repeat;
+      background: url('../assets/grogu.jpg') 20% 1% / cover no-repeat;
     }
     .date {
       position: absolute;
@@ -262,7 +262,7 @@ a {
   // Second example styles
   .example-2 {
     .wrapper {
-      background: url(./assets/sthe.jpg) center / cover no-repeat;
+      background: url('../assets/sthep.jpg') center / cover no-repeat;
       &:hover {
         .menu-content {
           span {

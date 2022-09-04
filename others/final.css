@@ -154,7 +154,7 @@ h1 {
 }
 
 .example-1 .wrapper {
-  background: url("./assets/bebe.jpg") 20% 1%/cover no-repeat;
+  background: url("../assets/grogu.jpg") 20% 1%/cover no-repeat;
 }
 .example-1 .date {
   position: absolute;
@@ -249,7 +249,7 @@ h1 {
 }
 
 .example-2 .wrapper {
-  background: url(./assets/sthe.jpg) center/cover no-repeat;
+  background: url("../assets/sthep.jpg") center/cover no-repeat;
 }
 .example-2 .wrapper:hover .menu-content span {
   transform: translate(-50%, -10px);
@@ -311,4 +311,4 @@ h1 {
 .example-2 .button:hover::after {
   transform: translate(5px, -50%);
   opacity: 1;
-}/*# sourceMappingURL=final2.css.map */
+}/*# sourceMappingURL=final.css.map */
