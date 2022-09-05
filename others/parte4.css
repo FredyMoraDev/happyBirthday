@@ -6174,5 +6174,23 @@ textarea {
     float: left;
     margin-right: 5px
 }
+.footer{
+    background: #080808;
+    width: 100%;
+    padding: 20px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    font-family: poppins;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer-text{
+    position: relative;
+    display: inline;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 1;
+  }
 
 /*# sourceMappingURL=main.70a66962.map*/

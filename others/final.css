@@ -181,7 +181,7 @@ h1 {
   font-size: 12px;
 }
 .example-1 .content {
-  background-color: #fff;
+  background-color:#034378;
   box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
 }
 .example-1 .title a {
@@ -311,4 +311,24 @@ h1 {
 .example-2 .button:hover::after {
   transform: translate(5px, -50%);
   opacity: 1;
-}/*# sourceMappingURL=final.css.map */
+}
+.footer{
+  background:to right, #034378, #2d4e68;
+  width: 100%;
+  padding: 20px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  font-family: poppins;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer-text{
+  position: relative;
+  display: inline;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=final.css.map */
