@@ -1,13 +1,13 @@
 var playlist = [
 	{
-		"song"    : "Different",
-		"album"   : "Diferrent",
-		"artist"  : "The Academic",
-		"artwork" : "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/ef/30/ac/ef30ac9e-cdd5-b062-d020-b9dc0f222898/20UMGIM11379.rgb.jpg/1200x1200bf-60.jpg",
-		"mp3"     : "../assets/elevated.mp3"
+		"song"    : "Jungle",
+		"album"   : "Jungle",
+		"artist"  : "Millie Turner",
+		"artwork" : "https://images.genius.com/07a5204f30eadf90f4e3a18149dbb0ba.939x939x1.jpg",
+		"mp3"     : "../assets/jungle.mp3"
 	},
 	{
-		"song"    : "Taxi ¡Solo Como en el Cielo! los Chicos No Lloran!",
+		"song"    : "Taxi¡Solo Como en <br>el Cielo!¡los Chicos<br>No Lloran!",
 		"album"   : "El ritmo de Los Shain's",
 		"artist"  : "Los Shain's",
 		"artwork" : "../assets/losshains.png",
@@ -16,24 +16,38 @@ var playlist = [
 	{
 		"song"    : "サファイアの星",
 		"album"   : "Wild Peace",
-		"artist"  : "スカパラ feat. Chara",
+		"artist"  : "Tokyo Ska Paradise<br> Orchestra",
 		"artwork" : "https://is5-ssl.mzstatic.com/image/thumb/Music/2f/24/08/mzi.zctomdhp.jpg/600x600bf-60.jpg",
 		"mp3"     : "../assets/tokyo.mp3"
 	},
     {
-		"song"    : "In Bloom feat Saxl Rose",
+		"song"    : "In Bloom",
 		"album"   : "In Bloom: Versions",
 		"artist"  : "Neck Deep",
 		"artwork" : "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/69/0a/00/690a000e-8a6a-2616-92c5-610ea00559ea/In_Bloom_Versions_Digital_Cover.jpg/1200x1200bf-60.jpg",
 		"mp3"     : "../assets/finish.mp3"
 	},
     {
-		"song"    : "Una Vida Para Recordar",
+		"song"    : "Una Vida Para<br>Recordar",
 		"album"   : "El amor en los tiempos de perreo",
-		"artist"  : "Piso 21 feat Myke Towers",
+		"artist"  : "Piso 21",
 		"artwork" : "https://images.genius.com/0776504901c32b2218343ab60046b797.1000x1000x1.png",
 		"mp3"     : "../assets/piso21.mp3"
-	}
+	},
+    {
+		"song"    : "Inspire The Liars",
+		"album"   : "Mothership",
+		"artist"  : "Dance Gavin Dance",
+		"artwork" : "https://m.media-amazon.com/images/I/81N6ELBpJHL._AC_SL1200_.jpg",
+		"mp3"     : "../assets/dancegavin.mp3"
+	},
+	{
+		"song"    : "Different",
+		"album"   : "Diferrent",
+		"artist"  : "The Academic",
+		"artwork" : "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/ef/30/ac/ef30ac9e-cdd5-b062-d020-b9dc0f222898/20UMGIM11379.rgb.jpg/1200x1200bf-60.jpg",
+		"mp3"     : "../assets/elevated.mp3"
+	},
 ];
 
 /* General Load / Variables

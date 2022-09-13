@@ -26,7 +26,7 @@ h2 {
 .player {
 	height: 190px;
 	width: 430px;
-	background-color: rgb(30, 33, 37);
+	background-image :linear-gradient(to right,rgb(74, 98, 110) 0.3%, rgb(30, 33, 48) 90.2%);
 	position: absolute;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -77,49 +77,50 @@ h2 {
   left: 59px;
 }
 .info h1 {
-	margin: 0 0 -10px;
-	margin-left: 180px;
+	color: rgb(0, 255, 0);
+	margin-left: 300px;
 	width: 182px;
 	overflow: hidden;
 	white-space: nowrap;
-	text-overflow: ellipsis;
+	
 }
 .info h4 {
 	line-height: 20px;
 	color: rgb(99, 99, 103);
-	margin-left: 180px;
+	margin-left: 230px;
 	width: 182px;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+	
 }
 .info h2 {
-	margin-left: 180px;
+	margin-left: 230px;
 	width: 182px;
 	overflow: hidden;
 	white-space: nowrap;
-	text-overflow: ellipsis;
+	
 }
 .button-items {
-	margin-left: 180px;
+	margin-left: 200px;
 }
 #slider {
 	width: 182px;
 	height: 4px;
-	background: rgb(21, 21, 24);
+	background: rgb(129, 129, 219);
 	border-radius: 2px;
 	overflow: hidden;
 }
 #slider #elapsed {
 	width: 0px;
 	height: 4px;
-	background: rgb(239, 109, 188);
+	background: rgb(131, 239, 109);
 	border-radius: 2px;
 }
 #slider #buffered {
 	width: 0px;
 	height: 4px;
-	background: rgba(239, 109, 188, 0.3);
+	background: rgba(63, 39, 53, 0.3);
 	border-radius: 2px;
 	margin-top: -4px;
 }
@@ -146,7 +147,7 @@ h2 {
 	enable-background: new 0 0 25 25;
 }
 #play g {
-	stroke: rgb(254, 254, 254);
+	stroke: rgb(103, 212, 152);
 	stroke-width: 1;
 	stroke-miterlimit: 10;
 }
@@ -158,11 +159,11 @@ h2 {
 	cursor: pointer;
 }
 #play:hover g {
-	stroke: rgb(239, 109, 188);
+	stroke: rgb(135, 239, 109);
 	cursor: pointer;
 }
 #play:hover g path {
-	fill: rgb(239, 109, 188);
+	fill: rgb(109, 239, 115);
 	cursor: pointer;
 }
 .step-backward {
@@ -206,7 +207,7 @@ h2 {
 	cursor: pointer;
 }
 .expend svg:hover g polygon {
-	fill: rgb(239, 109, 188);
+	fill: rgb(109, 239, 141);
 	cursor: pointer;
 }
 .slider {
@@ -218,7 +219,7 @@ h2 {
 .slider .volume{
 	width: 69px;
 	height: 4px;
-	background: rgba(243, 155, 208, 0.3);
+	background: rgba(237, 194, 248, 0.61);
 	border-top-left-radius: 2px;
 	border-bottom-left-radius: 2px;
 	margin-top: 10px;
@@ -229,7 +230,7 @@ h2 {
 
 input[type="range"] {
 	-webkit-appearance: none;
-	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0.678);
 	width: 100%;
 	height: 4px;
 	margin: 0;
@@ -277,10 +278,10 @@ input[type="range"]::-ms-thumb {
 	background-color: rgb(255, 255, 255);
 }
 input[type="range"]::-webkit-slider-thumb:hover, input[type="range"]::-webkit-slider-thumb:focus, input[type="range"]::-webkit-slider-thumb:active {
-	background-color: rgb(239, 109, 188);
+	background-color: rgb(171, 243, 156);
 }
 input[type="range"]::-moz-range-thumb:hover, input[type="range"]::-moz-range-thumb:focus, input[type="range"]::-moz-range-thumb:active {
-	background-color: rgb(239, 109, 188);
+	background-color: rgb(131, 239, 109);
 }
 input[type="range"]::-ms-thumb:hover, input[type="range"]::-ms-thumb:focus, input[type="range"]::-ms-thumb:active {
 	background-color: rgb(239, 109, 188);
