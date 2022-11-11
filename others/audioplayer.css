@@ -107,7 +107,7 @@ h2 {
 #slider {
 	width: 182px;
 	height: 4px;
-	background: rgb(129, 129, 219);
+	background: rgb(0, 0, 14);
 	border-radius: 2px;
 	overflow: hidden;
 }
@@ -125,7 +125,7 @@ h2 {
 	margin-top: -4px;
 }
 #timer {
-	color: rgb(99, 99, 103);
+	color: rgb(243, 243, 243);
 	line-height: 0;
 	font-size: 9pt;
 	float: right;
@@ -147,7 +147,7 @@ h2 {
 	enable-background: new 0 0 25 25;
 }
 #play g {
-	stroke: rgb(103, 212, 152);
+	stroke: rgb(29, 14, 234);
 	stroke-width: 1;
 	stroke-miterlimit: 10;
 }
@@ -200,7 +200,7 @@ h2 {
 }
 
 #pause:hover rect {
-	fill: rgb(239, 109, 188);
+	fill: rgb(122, 239, 109);
 }
 .expend {
 	padding: 0.5px;
@@ -219,7 +219,7 @@ h2 {
 .slider .volume{
 	width: 69px;
 	height: 4px;
-	background: rgba(237, 194, 248, 0.61);
+	background: rgba(5, 252, 42, 0.91);
 	border-top-left-radius: 2px;
 	border-bottom-left-radius: 2px;
 	margin-top: 10px;
